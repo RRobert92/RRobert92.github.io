@@ -82,7 +82,24 @@ def main() -> int:
             }
         )
 
-    papers.sort(key=lambda p: (-p["citations"], -(p["year"] or 0)))
+    # Semantic Scholar lists preprints and their published versions as separate
+    # records, and some titles carry PDF line-number artifacts ("minus- 1 end").
+    # Key on letters only so those collapse. Keep the better-cited record,
+    # breaking ties toward the one with a real venue.
+    best = {}
+    for p in papers:
+        key = "".join(c for c in p["title"].lower() if c.isalpha())
+        cur = best.get(key)
+        if cur is None or (p["citations"], bool(p["venue"])) > (
+            cur["citations"],
+            bool(cur["venue"]),
+        ):
+            best[key] = p
+    papers = list(best.values())
+
+    # Newest first — the recent work is the imaging/automation work. Citation
+    # counts still ride along on every entry.
+    papers.sort(key=lambda p: (-(p["year"] or 0), -p["citations"]))
 
     out = {
         "updated": time.strftime("%Y-%m-%d", time.gmtime()),

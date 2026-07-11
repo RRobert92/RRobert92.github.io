@@ -107,7 +107,8 @@
 // Publication data is refreshed weekly by a GitHub Action (see
 // scripts/fetch_publications.py) and served from this site — never fetched
 // live from the API, which rate-limits anonymous callers.
-const TOP_N = 8;
+// Sorted newest-first by the script; this caps how many are listed.
+const TOP_N = 10;
 
 fetch('../data/publications.json')
   .then(r => r.ok ? r.json() : Promise.reject(r.status))
@@ -130,7 +131,7 @@ fetch('../data/publications.json')
     }).join('');
 
     document.getElementById('stamp').innerHTML =
-      `Ranked by citation count. Updated ${escapeHtml(d.updated)} from ` +
+      `Most recent first, with citation counts. Updated ${escapeHtml(d.updated)} from ` +
       `<a href="${d.profile}">${escapeHtml(d.source)}</a>.`;
   })
   .catch(() => {

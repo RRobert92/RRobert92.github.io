@@ -9,53 +9,11 @@
   },
   "papers": [
     {
-      "title": "Bacterial polyhydroxyalkanoates: Still fabulous?",
-      "year": 2016,
-      "venue": "Microbiology Research",
-      "citations": 347,
-      "url": "https://doi.org/10.1016/j.micres.2016.07.010"
-    },
-    {
-      "title": "Central-spindle microtubules are strongly coupled to chromosomes during both anaphase A and anaphase B",
-      "year": 2019,
-      "venue": "bioRxiv",
-      "citations": 62,
-      "url": "https://doi.org/10.1091/mbc.E19-01-0074"
-    },
-    {
-      "title": "Three-dimensional structure of kinetochore-fibers in human mitotic spindles",
-      "year": 2021,
-      "venue": "bioRxiv",
-      "citations": 58,
-      "url": "https://doi.org/10.7554/eLife.75459"
-    },
-    {
       "title": "Vertebrate centromeres in mitosis are functionally bipartite structures stabilized by cohesin",
       "year": 2024,
       "venue": "Cell",
       "citations": 43,
       "url": "https://doi.org/10.1016/j.cell.2024.04.014"
-    },
-    {
-      "title": "Male meiotic spindle features that efficiently segregate paired and lagging chromosomes",
-      "year": 2019,
-      "venue": "bioRxiv",
-      "citations": 23,
-      "url": "https://doi.org/10.7554/eLife.50988"
-    },
-    {
-      "title": "Self-organization of kinetochore-fibers in human mitotic spindles",
-      "year": 2021,
-      "venue": "bioRxiv",
-      "citations": 22,
-      "url": "https://doi.org/10.1101/2021.11.11.468239"
-    },
-    {
-      "title": "Mitotic spindles revisited – new insights from 3D electron microscopy",
-      "year": 2018,
-      "venue": "Journal of Cell Science",
-      "citations": 19,
-      "url": "https://doi.org/10.1242/jcs.211383"
     },
     {
       "title": "Accurate and fast segmentation of filaments and membranes in micrographs and tomograms with TARDIS",
@@ -65,32 +23,11 @@
       "url": "https://doi.org/10.1101/2024.12.19.629196"
     },
     {
-      "title": "Semi-automatic stitching of filamentous structures in image stacks from serial-section electron tomography",
-      "year": 2020,
-      "venue": "bioRxiv",
-      "citations": 15,
-      "url": "https://doi.org/10.1111/jmi.13039"
-    },
-    {
-      "title": "E‐Cadherin restricts mast cell degranulation in mice",
-      "year": 2021,
-      "venue": "European Journal of Immunology",
-      "citations": 8,
-      "url": "https://doi.org/10.1002/eji.202049087"
-    },
-    {
       "title": "Automated Segmentation of 3D Cytoskeletal Filaments from Electron Micrographs with TARDIS.",
       "year": 2023,
       "venue": "Microscopy and Microanalysis",
       "citations": 6,
       "url": "https://doi.org/10.1093/micmic/ozad067.485"
-    },
-    {
-      "title": "High-throughput screening of mitotic mammalian cells for electron microscopy using classic histological dyes.",
-      "year": 2021,
-      "venue": "Methods in Cell Biology",
-      "citations": 6,
-      "url": "https://doi.org/10.1016/bs.mcb.2020.08.005"
     },
     {
       "title": "Serial-section Electron Tomography and Quantitative Analysis of Microtubule Organization in 3D-reconstructed Mitotic Spindles",
@@ -100,13 +37,6 @@
       "url": "https://doi.org/10.21769/BioProtoc.4849"
     },
     {
-      "title": "MCRS1 modulates the heterogeneity of microtubule minus-end morphologies in mitotic spindles",
-      "year": 2022,
-      "venue": "bioRxiv",
-      "citations": 1,
-      "url": "https://doi.org/10.1091/mbc.E22-08-0306-T"
-    },
-    {
       "title": "Tomography studies of the dengue fusion process",
       "year": 2023,
       "venue": "Acta Crystallographica Section A: Foundations and Advances",
@@ -114,11 +44,46 @@
       "url": "https://doi.org/10.1107/s2053273323090502"
     },
     {
-      "title": "MCRS1 modulates the heterogeneity of microtubule minus- 1 end morphologies in mitotic spindles 2",
+      "title": "MCRS1 modulates the heterogeneity of microtubule minus-end morphologies in mitotic spindles",
       "year": 2022,
-      "venue": "",
-      "citations": 0,
-      "url": ""
+      "venue": "bioRxiv",
+      "citations": 1,
+      "url": "https://doi.org/10.1091/mbc.E22-08-0306-T"
+    },
+    {
+      "title": "Three-dimensional structure of kinetochore-fibers in human mitotic spindles",
+      "year": 2021,
+      "venue": "bioRxiv",
+      "citations": 58,
+      "url": "https://doi.org/10.7554/eLife.75459"
+    },
+    {
+      "title": "Self-organization of kinetochore-fibers in human mitotic spindles",
+      "year": 2021,
+      "venue": "bioRxiv",
+      "citations": 22,
+      "url": "https://doi.org/10.1101/2021.11.11.468239"
+    },
+    {
+      "title": "E‐Cadherin restricts mast cell degranulation in mice",
+      "year": 2021,
+      "venue": "European Journal of Immunology",
+      "citations": 8,
+      "url": "https://doi.org/10.1002/eji.202049087"
+    },
+    {
+      "title": "High-throughput screening of mitotic mammalian cells for electron microscopy using classic histological dyes.",
+      "year": 2021,
+      "venue": "Methods in Cell Biology",
+      "citations": 6,
+      "url": "https://doi.org/10.1016/bs.mcb.2020.08.005"
+    },
+    {
+      "title": "Semi-automatic stitching of filamentous structures in image stacks from serial-section electron tomography",
+      "year": 2020,
+      "venue": "bioRxiv",
+      "citations": 15,
+      "url": "https://doi.org/10.1111/jmi.13039"
     },
     {
       "title": "Sperm-specific meiotic chromosome segregation in C. elegans",
@@ -128,6 +93,20 @@
       "url": ""
     },
     {
+      "title": "Central-spindle microtubules are strongly coupled to chromosomes during both anaphase A and anaphase B",
+      "year": 2019,
+      "venue": "bioRxiv",
+      "citations": 62,
+      "url": "https://doi.org/10.1091/mbc.E19-01-0074"
+    },
+    {
+      "title": "Male meiotic spindle features that efficiently segregate paired and lagging chromosomes",
+      "year": 2019,
+      "venue": "bioRxiv",
+      "citations": 23,
+      "url": "https://doi.org/10.7554/eLife.50988"
+    },
+    {
       "title": "Semi-automatic Stitching of Serial Section Image Stacks with Filamentous Structures",
       "year": 2019,
       "venue": "",
@@ -135,11 +114,18 @@
       "url": ""
     },
     {
-      "title": "Three-dimensional structure of kinetochore-1 fibers in human mitotic spindles 2",
-      "year": null,
-      "venue": "",
-      "citations": 0,
-      "url": ""
+      "title": "Mitotic spindles revisited – new insights from 3D electron microscopy",
+      "year": 2018,
+      "venue": "Journal of Cell Science",
+      "citations": 19,
+      "url": "https://doi.org/10.1242/jcs.211383"
+    },
+    {
+      "title": "Bacterial polyhydroxyalkanoates: Still fabulous?",
+      "year": 2016,
+      "venue": "Microbiology Research",
+      "citations": 347,
+      "url": "https://doi.org/10.1016/j.micres.2016.07.010"
     }
   ]
 }
