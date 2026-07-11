@@ -110,7 +110,9 @@
 // Sorted newest-first by the script; this caps how many are listed.
 const TOP_N = 10;
 
-fetch('../data/publications.json')
+// `no-cache` = revalidate with the server (cheap ETag check) rather than
+// silently serving a stale copy from the browser cache after an update.
+fetch('../data/publications.json', { cache: 'no-cache' })
   .then(r => r.ok ? r.json() : Promise.reject(r.status))
   .then(d => {
     document.getElementById('metrics').innerHTML = [
