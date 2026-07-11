@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stock-Watcher — Privacy Policy</title>
+<style>
+  :root { color-scheme: dark; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #08080c; color: #ebebf5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65; padding: 48px 24px 80px;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  .kicker { color: #9a8cff; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+  h1 { font-size: 34px; margin: 6px 0 8px; letter-spacing: -0.02em; }
+  .sub { color: rgba(235,235,245,0.6); margin-bottom: 40px; }
+  h2 { font-size: 20px; margin: 36px 0 10px; letter-spacing: -0.01em; }
+  p, li { color: rgba(235,235,245,0.78); font-size: 16px; }
+  ul { padding-left: 22px; margin: 8px 0; }
+  li { margin: 6px 0; }
+  a { color: #9a8cff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .highlight {
+    background: rgba(154,140,255,0.08); border: 1px solid rgba(154,140,255,0.25);
+    border-radius: 16px; padding: 18px 20px; margin: 0 0 32px;
+    font-size: 15px; color: rgba(235,235,245,0.85);
+  }
+  footer { max-width: 640px; margin: 56px auto 0; color: rgba(235,235,245,0.4); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">Privacy Policy</div>
+  <h1>Stock-Watcher</h1>
+  <p class="sub">Effective July 11, 2026</p>
+
+  <div class="highlight">
+    <strong>The short version:</strong> your portfolio, watchlist, and settings stay on your phone. The app has no servers of its own, no accounts, no analytics, no ads, and no tracking. It talks to the internet for one reason only: downloading public market data from the sources listed below.
+  </div>
+
+  <h2>What data the app stores — on your device only</h2>
+  <p>Your watchlist, holdings (quantities, costs, cash), alert rules, decisions log, signal history, downloaded market-data caches, and settings. All of it lives in a local database on your device. There is no cloud copy and no account.</p>
+
+  <h2>What we collect</h2>
+  <p>Nothing. The app has no developer server — there is nowhere for your data to be sent. Stock-Watcher does <strong>not</strong>:</p>
+  <ul>
+    <li>collect, transmit, or sell any personal data to the developer or anyone else;</li>
+    <li>use analytics, advertising, or tracking of any kind;</li>
+    <li>include third-party analytics or advertising software;</li>
+    <li>require an account.</li>
+  </ul>
+
+  <h2>What leaves your device — and where it goes</h2>
+  <p>To show market data, the app downloads it directly from public services. Like any internet request, those services see your device's network address and what was requested (for example, which ticker's prices or filings). The app contacts only:</p>
+  <ul>
+    <li><strong>Yahoo Finance</strong> — stock quotes and price history;</li>
+    <li><strong>SEC EDGAR</strong> (U.S. Securities and Exchange Commission) — company filings and fundamentals;</li>
+    <li><strong>USAspending.gov and public U.S. government feeds</strong> — government contract awards;</li>
+    <li><strong>FRED, BLS, BEA, U.S. Treasury, Federal Reserve</strong> — macroeconomic series;</li>
+    <li><strong>Frankfurter</strong> — currency exchange rates;</li>
+    <li><strong>public news feeds</strong> (for example Google News RSS) — headlines;</li>
+    <li><strong>Finnhub</strong> — real-time quotes, only if you enable it with your own key.</li>
+  </ul>
+  <p>Your holdings, quantities, and portfolio values are never part of these requests — only the symbols being looked up.</p>
+
+  <h2>Your SEC EDGAR contact email</h2>
+  <p>The SEC requires every program accessing EDGAR to identify itself with a reachable contact email. On first launch the app asks for yours; it is stored on your device and sent <strong>only to the SEC</strong>, inside the technical header of each EDGAR request. It is never sent to the developer or any other service. You can change or remove it in Settings → SEC EDGAR.</p>
+
+  <h2>API keys</h2>
+  <p>Optional FRED and Finnhub keys are yours, entered by you, stored in your device's Keychain, and sent only to their respective services to authenticate your own requests.</p>
+
+  <h2>On-device intelligence</h2>
+  <p>News sentiment scoring and language features run entirely on your device (a bundled machine-learning model, and optionally Apple Intelligence where available). No text is sent to any service for analysis.</p>
+
+  <h2>Notifications, widgets and Live Activities</h2>
+  <p>Alerts are evaluated on your device and posted as local notifications. Widgets and the market-session Live Activity read a local snapshot shared between the app and its widgets on your phone. Nothing is pushed from a server.</p>
+
+  <h2>Sharing and export</h2>
+  <p>You can export data (for example a realized-gains CSV) using the standard iOS share sheet. Sharing happens only when you choose it, to the destination you choose.</p>
+
+  <h2>Device backups</h2>
+  <p>Like most iOS apps, the app's local data may be included in your device backups (iCloud or computer backups) if you have backups enabled. Those backups are managed by Apple and your device settings, not by this app.</p>
+
+  <h2>Deleting your data</h2>
+  <p>Settings → Danger zone → Reset all data clears everything the app stores. Deleting the app removes all of its data from your device.</p>
+
+  <h2>Children</h2>
+  <p>The app is a finance tool and is not directed at children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If the app's privacy practices ever change, this page will be updated and the effective date above will change.</p>
+
+  <h2>Contact</h2>
+  <p>If you have any questions about privacy, email <a href="mailto:robert.kiewisz@gmail.com">robert.kiewisz@gmail.com</a>.</p>
+</main>
+<footer>© 2026 Robert Kiewisz · <a href="index.html">Stock-Watcher support</a> · <a href="../">All apps</a></footer>
+</body>
+</html>
