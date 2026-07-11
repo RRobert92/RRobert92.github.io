@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robert Kiewisz — Research</title>
+<meta name="description" content="Machine learning for electron microscopy: automated segmentation, image processing, and computer vision. TARDIS-EM and PANDORICA.">
+<style>
+  :root { color-scheme: dark; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #08080c; color: #ebebf5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65; padding: 48px 24px 80px;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  .kicker { color: #9a8cff; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+  h1 { font-size: 34px; margin: 6px 0 8px; letter-spacing: -0.02em; }
+  .sub { color: rgba(235,235,245,0.6); margin-bottom: 40px; }
+  h2 { font-size: 20px; margin: 40px 0 12px; letter-spacing: -0.01em; }
+  h3 { font-size: 17px; margin-bottom: 4px; }
+  p, li { color: rgba(235,235,245,0.78); font-size: 16px; }
+  a { color: #9a8cff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .card {
+    background: #131318; border: 1px solid rgba(235,235,245,0.08);
+    border-radius: 16px; padding: 20px 22px; margin: 14px 0;
+  }
+  .card p { font-size: 15px; color: rgba(235,235,245,0.72); }
+  .card .links { margin-top: 10px; font-size: 14px; }
+  .tags { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag {
+    font-size: 12px; color: rgba(235,235,245,0.65);
+    background: rgba(235,235,245,0.06); border: 1px solid rgba(235,235,245,0.08);
+    border-radius: 8px; padding: 3px 9px;
+  }
+
+  .metrics { display: flex; gap: 10px; flex-wrap: wrap; margin: 8px 0 4px; }
+  .metric {
+    flex: 1; min-width: 120px; background: #131318;
+    border: 1px solid rgba(235,235,245,0.08); border-radius: 14px; padding: 14px 16px;
+  }
+  .metric .n { font-size: 24px; font-weight: 600; letter-spacing: -0.01em; }
+  .metric .l { font-size: 13px; color: rgba(235,235,245,0.55); }
+
+  ol.pubs { list-style: none; margin-top: 6px; }
+  ol.pubs li {
+    display: flex; gap: 14px; align-items: baseline;
+    padding: 14px 0; border-top: 1px solid rgba(235,235,245,0.07);
+  }
+  .cites {
+    flex: 0 0 62px; text-align: right; font-variant-numeric: tabular-nums;
+    color: #9a8cff; font-weight: 600; font-size: 15px;
+  }
+  .cites small { display: block; font-size: 11px; font-weight: 400; color: rgba(235,235,245,0.4); }
+  .pub-title { font-size: 15px; color: rgba(235,235,245,0.9); }
+  .pub-meta { font-size: 13px; color: rgba(235,235,245,0.5); margin-top: 2px; }
+  .stamp { font-size: 13px; color: rgba(235,235,245,0.4); margin-top: 14px; }
+  footer { max-width: 720px; margin: 56px auto 0; color: rgba(235,235,245,0.4); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">Research</div>
+  <h1>Robert Kiewisz</h1>
+  <p class="sub">I build machine-learning tools that turn electron-microscopy images into measurable structure — automating the segmentation and reconstruction work that used to be done by hand, one slice at a time.</p>
+
+  <h2>Focus</h2>
+  <p>Computer vision and image processing for structural biology: deep-learning segmentation of filaments and membranes in micrographs and tomograms, geometric instance separation of dense structures, and the alignment pipelines that make large volumes usable. The goal is throughput — analyses that took months of manual annotation running in minutes, reproducibly, at dataset scale.</p>
+
+  <h2>Software</h2>
+
+  <div class="card">
+    <h3>TARDIS-EM</h3>
+    <p>Transformer-based rapid dimensionless instance segmentation. Combines deep semantic segmentation with a geometric model that separates individual objects, turning 2D and 3D micrographs — electron tomography, cryo-EM, fluorescence — into segmented point clouds. Pre-trained models for microtubules and membranes generalize across modalities and resolutions, and have been applied to over 13,000 tomograms from the CZI cryo-ET data portal.</p>
+    <div class="tags">
+      <span class="tag">PyTorch</span><span class="tag">segmentation</span><span class="tag">point clouds</span><span class="tag">napari plugin</span>
+    </div>
+    <p class="links">
+      <a href="https://github.com/SMLC-NYSBC/TARDIS">GitHub</a> ·
+      <a href="https://pypi.org/project/tardis-em/">PyPI</a> ·
+      <a href="https://napari-hub.org/plugins/napari-tardis-em.html">napari hub</a> ·
+      <a href="https://www.biorxiv.org/content/10.1101/2024.12.19.629196v1">preprint</a>
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>PANDORICA</h3>
+    <p>Analytical tools for electron microscopy. Its serial-section tomogram stitcher solves the alignment problem in two stages: the image data fixes each section's global pose — rotation, shift, anisotropic stretch — while the microtubules drive only the fine residual warp, guarded by a diffeomorphism constraint so the deformation stays physically sane. Ships with a napari plugin for validating alignments on real datasets.</p>
+    <div class="tags">
+      <span class="tag">registration</span><span class="tag">TPS warp</span><span class="tag">GPU</span><span class="tag">napari plugin</span>
+    </div>
+    <p class="links"><a href="https://github.com/RRobert92/pandorica">GitHub</a></p>
+  </div>
+
+  <h2>Publications</h2>
+  <div class="metrics" id="metrics"></div>
+  <ol class="pubs" id="pubs">
+    <li><div class="pub-title">Loading publications…</div></li>
+  </ol>
+  <p class="stamp" id="stamp"></p>
+</main>
+<footer>© 2026 Robert Kiewisz · <a href="../">Apps</a> · <a href="https://github.com/RRobert92">GitHub</a></footer>
+
+<script>
+// Publication data is refreshed weekly by a GitHub Action (see
+// scripts/fetch_publications.py) and served from this site — never fetched
+// live from the API, which rate-limits anonymous callers.
+const TOP_N = 8;
+
+fetch('../data/publications.json')
+  .then(r => r.ok ? r.json() : Promise.reject(r.status))
+  .then(d => {
+    document.getElementById('metrics').innerHTML = [
+      [d.metrics.citations.toLocaleString(), 'citations'],
+      [d.metrics.papers, 'publications'],
+      [d.metrics.hIndex, 'h-index'],
+    ].map(([n, l]) => `<div class="metric"><div class="n">${n}</div><div class="l">${l}</div></div>`).join('');
+
+    document.getElementById('pubs').innerHTML = d.papers.slice(0, TOP_N).map(p => {
+      const title = p.url
+        ? `<a href="${p.url}">${escapeHtml(p.title)}</a>`
+        : escapeHtml(p.title);
+      const meta = [p.venue, p.year].filter(Boolean).map(escapeHtml).join(' · ');
+      return `<li>
+        <div class="cites">${p.citations}<small>cited by</small></div>
+        <div><div class="pub-title">${title}</div><div class="pub-meta">${meta}</div></div>
+      </li>`;
+    }).join('');
+
+    document.getElementById('stamp').innerHTML =
+      `Ranked by citation count. Updated ${escapeHtml(d.updated)} from ` +
+      `<a href="${d.profile}">${escapeHtml(d.source)}</a>.`;
+  })
+  .catch(() => {
+    document.getElementById('pubs').innerHTML =
+      '<li><div class="pub-title">Publication list unavailable — see ' +
+      '<a href="https://www.semanticscholar.org/author/15648247">Semantic Scholar</a>.</div></li>';
+  });
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+</script>
+</body>
+</html>
