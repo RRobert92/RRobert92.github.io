@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13",
+  "updated": "2026-07-20",
   "source": "Semantic Scholar",
   "profile": "https://www.semanticscholar.org/author/15648247",
   "metrics": {
@@ -12,14 +12,14 @@
       "title": "Vertebrate centromeres in mitosis are functionally bipartite structures stabilized by cohesin",
       "year": 2024,
       "venue": "Cell",
-      "citations": 43,
+      "citations": 44,
       "url": "https://doi.org/10.1016/j.cell.2024.04.014"
     },
     {
       "title": "Accurate and fast segmentation of filaments and membranes in micrographs and tomograms with TARDIS",
       "year": 2024,
       "venue": "bioRxiv",
-      "citations": 18,
+      "citations": 19,
       "url": "https://doi.org/10.1101/2024.12.19.629196"
     },
     {
