@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20",
+  "updated": "2026-07-27",
   "source": "Semantic Scholar",
   "profile": "https://www.semanticscholar.org/author/15648247",
   "metrics": {
@@ -12,7 +12,7 @@
       "title": "Vertebrate centromeres in mitosis are functionally bipartite structures stabilized by cohesin",
       "year": 2024,
       "venue": "Cell",
-      "citations": 44,
+      "citations": 45,
       "url": "https://doi.org/10.1016/j.cell.2024.04.014"
     },
     {
@@ -124,7 +124,7 @@
       "title": "Bacterial polyhydroxyalkanoates: Still fabulous?",
       "year": 2016,
       "venue": "Microbiology Research",
-      "citations": 347,
+      "citations": 349,
       "url": "https://doi.org/10.1016/j.micres.2016.07.010"
     }
   ]
