@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-31",
   "source": "Semantic Scholar",
   "profile": "https://www.semanticscholar.org/author/15648247",
   "metrics": {
@@ -12,7 +12,7 @@
       "title": "Vertebrate centromeres in mitosis are functionally bipartite structures stabilized by cohesin",
       "year": 2024,
       "venue": "Cell",
-      "citations": 48,
+      "citations": 50,
       "url": "https://doi.org/10.1016/j.cell.2024.04.014"
     },
     {
@@ -54,7 +54,7 @@
       "title": "Three-dimensional structure of kinetochore-fibers in human mitotic spindles",
       "year": 2021,
       "venue": "bioRxiv",
-      "citations": 60,
+      "citations": 61,
       "url": "https://doi.org/10.7554/eLife.75459"
     },
     {
@@ -124,7 +124,7 @@
       "title": "Bacterial polyhydroxyalkanoates: Still fabulous?",
       "year": 2016,
       "venue": "Microbiology Research",
-      "citations": 350,
+      "citations": 352,
       "url": "https://doi.org/10.1016/j.micres.2016.07.010"
     }
   ]
