@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-07",
   "source": "Semantic Scholar",
   "profile": "https://www.semanticscholar.org/author/15648247",
   "metrics": {
@@ -54,7 +54,7 @@
       "title": "Three-dimensional structure of kinetochore-fibers in human mitotic spindles",
       "year": 2021,
       "venue": "bioRxiv",
-      "citations": 61,
+      "citations": 62,
       "url": "https://doi.org/10.7554/eLife.75459"
     },
     {
@@ -82,7 +82,7 @@
       "title": "Semi-automatic stitching of filamentous structures in image stacks from serial-section electron tomography",
       "year": 2020,
       "venue": "bioRxiv",
-      "citations": 15,
+      "citations": 16,
       "url": "https://doi.org/10.1111/jmi.13039"
     },
     {
