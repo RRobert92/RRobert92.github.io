@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-14",
   "source": "Semantic Scholar",
   "profile": "https://www.semanticscholar.org/author/15648247",
   "metrics": {
@@ -12,7 +12,7 @@
       "title": "Vertebrate centromeres in mitosis are functionally bipartite structures stabilized by cohesin",
       "year": 2024,
       "venue": "Cell",
-      "citations": 50,
+      "citations": 53,
       "url": "https://doi.org/10.1016/j.cell.2024.04.014"
     },
     {
@@ -26,7 +26,7 @@
       "title": "Automated Segmentation of 3D Cytoskeletal Filaments from Electron Micrographs with TARDIS.",
       "year": 2023,
       "venue": "Microscopy and Microanalysis",
-      "citations": 6,
+      "citations": 7,
       "url": "https://doi.org/10.1093/micmic/ozad067.485"
     },
     {
@@ -124,7 +124,7 @@
       "title": "Bacterial polyhydroxyalkanoates: Still fabulous?",
       "year": 2016,
       "venue": "Microbiology Research",
-      "citations": 352,
+      "citations": 353,
       "url": "https://doi.org/10.1016/j.micres.2016.07.010"
     }
   ]
