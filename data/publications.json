@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-28",
   "source": "Semantic Scholar",
   "profile": "https://www.semanticscholar.org/author/15648247",
   "metrics": {
@@ -54,14 +54,14 @@
       "title": "Three-dimensional structure of kinetochore-fibers in human mitotic spindles",
       "year": 2021,
       "venue": "bioRxiv",
-      "citations": 63,
+      "citations": 65,
       "url": "https://doi.org/10.7554/eLife.75459"
     },
     {
       "title": "Self-organization of kinetochore-fibers in human mitotic spindles",
       "year": 2021,
       "venue": "bioRxiv",
-      "citations": 23,
+      "citations": 24,
       "url": "https://doi.org/10.1101/2021.11.11.468239"
     },
     {
@@ -124,7 +124,7 @@
       "title": "Bacterial polyhydroxyalkanoates: Still fabulous?",
       "year": 2016,
       "venue": "Microbiology Research",
-      "citations": 353,
+      "citations": 354,
       "url": "https://doi.org/10.1016/j.micres.2016.07.010"
     }
   ]
