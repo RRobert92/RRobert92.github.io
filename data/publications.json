@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-10-05",
   "source": "Semantic Scholar",
   "profile": "https://www.semanticscholar.org/author/15648247",
   "metrics": {
     "papers": 19,
-    "citations": 621,
+    "citations": 664,
     "hIndex": 9
   },
   "papers": [
@@ -12,7 +12,7 @@
       "title": "Vertebrate centromeres in mitosis are functionally bipartite structures stabilized by cohesin",
       "year": 2024,
       "venue": "Cell",
-      "citations": 53,
+      "citations": 54,
       "url": "https://doi.org/10.1016/j.cell.2024.04.014"
     },
     {
