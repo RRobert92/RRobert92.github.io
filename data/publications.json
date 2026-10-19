@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-19",
   "source": "Semantic Scholar",
   "profile": "https://www.semanticscholar.org/author/15648247",
   "metrics": {
     "papers": 19,
-    "citations": 665,
+    "citations": 666,
     "hIndex": 9
   },
   "papers": [
@@ -54,14 +54,14 @@
       "title": "Three-dimensional structure of kinetochore-fibers in human mitotic spindles",
       "year": 2021,
       "venue": "bioRxiv",
-      "citations": 65,
+      "citations": 66,
       "url": "https://doi.org/10.7554/eLife.75459"
     },
     {
       "title": "Self-organization of kinetochore-fibers in human mitotic spindles",
       "year": 2021,
       "venue": "bioRxiv",
-      "citations": 24,
+      "citations": 25,
       "url": "https://doi.org/10.1101/2021.11.11.468239"
     },
     {
@@ -86,6 +86,13 @@
       "url": "https://doi.org/10.1111/jmi.13039"
     },
     {
+      "title": "Author response: Male meiotic spindle features that efficiently segregate paired and lagging chromosomes",
+      "year": 2020,
+      "venue": "",
+      "citations": 0,
+      "url": "https://doi.org/10.7554/elife.50988.sa2"
+    },
+    {
       "title": "Sperm-specific meiotic chromosome segregation in C. elegans",
       "year": 2020,
       "venue": "",
@@ -96,7 +103,7 @@
       "title": "Central-spindle microtubules are strongly coupled to chromosomes during both anaphase A and anaphase B",
       "year": 2019,
       "venue": "bioRxiv",
-      "citations": 62,
+      "citations": 63,
       "url": "https://doi.org/10.1091/mbc.E19-01-0074"
     },
     {
