@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-26",
   "source": "Semantic Scholar",
   "profile": "https://www.semanticscholar.org/author/15648247",
   "metrics": {
-    "papers": 19,
-    "citations": 666,
+    "papers": 20,
+    "citations": 669,
     "hIndex": 9
   },
   "papers": [
@@ -19,7 +19,7 @@
       "title": "Accurate and fast segmentation of filaments and membranes in micrographs and tomograms with TARDIS",
       "year": 2024,
       "venue": "bioRxiv",
-      "citations": 22,
+      "citations": 24,
       "url": "https://doi.org/10.1101/2024.12.19.629196"
     },
     {
@@ -54,14 +54,14 @@
       "title": "Three-dimensional structure of kinetochore-fibers in human mitotic spindles",
       "year": 2021,
       "venue": "bioRxiv",
-      "citations": 66,
+      "citations": 70,
       "url": "https://doi.org/10.7554/eLife.75459"
     },
     {
       "title": "Self-organization of kinetochore-fibers in human mitotic spindles",
       "year": 2021,
       "venue": "bioRxiv",
-      "citations": 25,
+      "citations": 26,
       "url": "https://doi.org/10.1101/2021.11.11.468239"
     },
     {
@@ -82,7 +82,7 @@
       "title": "Semi-automatic stitching of filamentous structures in image stacks from serial-section electron tomography",
       "year": 2020,
       "venue": "bioRxiv",
-      "citations": 16,
+      "citations": 17,
       "url": "https://doi.org/10.1111/jmi.13039"
     },
     {
@@ -103,14 +103,14 @@
       "title": "Central-spindle microtubules are strongly coupled to chromosomes during both anaphase A and anaphase B",
       "year": 2019,
       "venue": "bioRxiv",
-      "citations": 63,
+      "citations": 64,
       "url": "https://doi.org/10.1091/mbc.E19-01-0074"
     },
     {
       "title": "Male meiotic spindle features that efficiently segregate paired and lagging chromosomes",
       "year": 2019,
       "venue": "bioRxiv",
-      "citations": 24,
+      "citations": 25,
       "url": "https://doi.org/10.7554/eLife.50988"
     },
     {
@@ -131,7 +131,7 @@
       "title": "Bacterial polyhydroxyalkanoates: Still fabulous?",
       "year": 2016,
       "venue": "Microbiology Research",
-      "citations": 355,
+      "citations": 356,
       "url": "https://doi.org/10.1016/j.micres.2016.07.010"
     }
   ]
