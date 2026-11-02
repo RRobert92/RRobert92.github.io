@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "source": "Semantic Scholar",
   "profile": "https://www.semanticscholar.org/author/15648247",
   "metrics": {
     "papers": 20,
-    "citations": 669,
+    "citations": 680,
     "hIndex": 9
   },
   "papers": [
@@ -131,7 +131,7 @@
       "title": "Bacterial polyhydroxyalkanoates: Still fabulous?",
       "year": 2016,
       "venue": "Microbiology Research",
-      "citations": 356,
+      "citations": 358,
       "url": "https://doi.org/10.1016/j.micres.2016.07.010"
     }
   ]
